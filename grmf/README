@@ -1,0 +1,57 @@
+Requirement
+===========
+    - Unix-like Environment
+    - Gnu GCC/G++ 4.8 or above 
+    - Matlab or Octave 
+    - If you are using Mac OS X, please install GCC and Octave via Mac HomeBrew
+
+
+Install
+=======
+    - Open a Matlab or Octave interactive terminal
+    - type 
+        > install
+
+Usage
+=====
+        >> addpath('trmf-core/matlab') % or addpath('trmf-core/octave');
+        >> glr_mf_train                  
+        Usage: [W' H' rmse walltime] = glr_mf_train(Y, testY, A, B [,
+                'options'])
+        Usage: [W' H' rmse walltime] = glr_mf_train(Y, testY, A, B, W', H' [,
+                'options'])
+		       Y: [I J V] a nnz-by-3 matrix with each row as an entry in the 
+			      observed matrix
+               A: a symmetric sparse matrix, e.g., Laplacian for rows
+               B: a symmetric sparse matrix, e.g., Laplacian for cols
+               options:
+                -n threads : set the number of threads (default 4)
+                -k rank : set the rank (default 10)
+                -e epsilon : set stopping criterion epsilon of tron (default 0.1)
+                -t max_iter: set the number of iterations (default 10)
+                -g max_cg_iter: set the number of iterations used in CG (default 5)
+                -q verbose: show information or not (default 1)
+
+
+FAQ
+===
+    - If you see something like 
+        "Invalid MEX-file ... libstdc++.so.6: version `CXXABI_1.3.8' not found..,"
+      the libstdc++ in your system is newer than the version that comes with
+      matlab. You can resolve this problem by opening matlab with a LD_PRELOAD
+      environment variable such as 
+        LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 matlab
+
+
+Citation
+========
+Please acknowledge the use of the code with a citation.
+@InProceedings{   NR15a,
+  title={Collaborative Filtering with Graph Information: Consistency and Scalable Methods},
+  author={Rao, Nikhil and Yu, Hsiang-Fu and Ravikumar, Pradeep K. and Dhillon, Inderjit S.},
+  booktitle = {Advances in Neural Information Processing Systems 27},
+  year={2015}
+}
+
+
+If you have any questions regarding the code, feel free to contact Hsiang-Fu Yu (rofuyu at cs utexas edu). 
