@@ -1,5 +1,5 @@
 # GPMF-GBP-AAAI-20
-This code is for demonstration experiments, using Movielens 100k dataset with side information, for the paper:
+This MATLAB code is for demonstration experiments, using Movielens 100k dataset with side information, for the paper:
 
 Strahl, J., Peltonen, J., Mamitsuka, H., & Kaski, S. (2020). Scalable Probabilistic Matrix Factorization with Graph-Based Priors. To appear in Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20), preprint on arXiv.
 
