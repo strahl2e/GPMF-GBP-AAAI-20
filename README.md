@@ -1,7 +1,9 @@
 # GPMF-GBP-AAAI-20
 This MATLAB code is for demonstration experiments, using Movielens 100k dataset with side information, for the paper:
 
-Strahl, J., Peltonen, J., Mamitsuka, H., & Kaski, S. (2020). Scalable Probabilistic Matrix Factorization with Graph-Based Priors. To appear in Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20), preprint on arXiv.
+Strahl, J., Peltonen, J., Mamitsuka, H., & Kaski, S. (2020). Scalable Probabilistic Matrix Factorization with Graph-Based Priors. Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20).
+
+DOI: [https://doi.org/10.1609/aaai.v34i04.6043](https://doi.org/10.1609/aaai.v34i04.6043)
 
 Our method, Graph-Based Prior Probabilistic Matrix Factorisation (GPMF), estimates the unobserved ratings for the Movielens data, given the demographic side-information for users and genre side-information for movies.  A kNN graph is created from the feature side-information used as regularisation.  
 
