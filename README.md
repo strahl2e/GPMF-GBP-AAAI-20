@@ -5,7 +5,7 @@ Strahl, J., Peltonen, J., Mamitsuka, H., & Kaski, S. (2020). Scalable Probabilis
 
 DOI: [https://doi.org/10.1609/aaai.v34i04.6043](https://doi.org/10.1609/aaai.v34i04.6043)
 
-# RUN THE DEMO
+# Run the Demo
 
 To run the demo simply run the gpmf_demo_movielens100k.m MATLAB file which will compare our method with several baseline methods.
 
