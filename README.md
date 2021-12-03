@@ -14,12 +14,12 @@ Our method, Graph-Based Prior Probabilistic Matrix Factorisation (GPMF), estimat
 
 GPMF initialises the latent features with no side-information using PMF (GRALS with empty graphs).  Next the M-step of the algorithm identifies edges in the graph that are contested (disagree with) the correlations between latent feature vectors. If two latent features have a negative correlation, the edge in the graph is contested, and therefore removed.  Finally the E-step runs the GRALS algorithm with the updated graph with contested edges removed.
 
-ACKNOWLEDGEMENTS:
+# Acknowledgements
 
 Function for generating samples efficiently from Gaussian thanks to:
 Fattahi, Salar, Richard Y. Zhang, and Somayeh Sojoudi. "Linear-Time Algorithm for Learning Large-Scale Sparse Graphical Models." IEEE Access 7 (2019): 12658-12672.
 
-# COMPARISON METHODS
+# Comparison Methods
 
 We use code for the comparison methods provided by the authors of the following papers:
 KPMF: 
