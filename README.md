@@ -22,8 +22,12 @@ Fattahi, Salar, Richard Y. Zhang, and Somayeh Sojoudi. "Linear-Time Algorithm fo
 # Comparison Methods
 
 We use code for the comparison methods provided by the authors of the following papers:
+
 KPMF: 
+
 Zhou, T., Shan, H., Banerjee, A., & Sapiro, G. (2012, April). Kernelized probabilistic matrix factorization: Exploiting graphs and side information. In Proceedings of the 2012 SIAM international Conference on Data mining (pp. 403-414). Society for Industrial and Applied Mathematics.
+
 GRALS:
+
 Rao, N., Yu, H. F., Ravikumar, P. K., & Dhillon, I. S. (2015). Collaborative filtering with graph information: Consistency and scalable methods. In Advances in neural information processing systems (pp. 2107-2115).
 
