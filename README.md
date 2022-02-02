@@ -5,6 +5,12 @@ Strahl, J., Peltonen, J., Mamitsuka, H., & Kaski, S. (2020). Scalable Probabilis
 
 DOI: [https://doi.org/10.1609/aaai.v34i04.6043](https://doi.org/10.1609/aaai.v34i04.6043)
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scalable-probabilistic-matrix-factorization/collaborative-filtering-on-movielens-20m)](https://paperswithcode.com/sota/collaborative-filtering-on-movielens-20m?p=scalable-probabilistic-matrix-factorization)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scalable-probabilistic-matrix-factorization/collaborative-filtering-on-yahoomusic)](https://paperswithcode.com/sota/collaborative-filtering-on-yahoomusic?p=scalable-probabilistic-matrix-factorization)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scalable-probabilistic-matrix-factorization/recommendation-systems-on-flixster-monti)](https://paperswithcode.com/sota/recommendation-systems-on-flixster-monti?p=scalable-probabilistic-matrix-factorization)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scalable-probabilistic-matrix-factorization/recommendation-systems-on-douban-monti)](https://paperswithcode.com/sota/recommendation-systems-on-douban-monti?p=scalable-probabilistic-matrix-factorization)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scalable-probabilistic-matrix-factorization/collaborative-filtering-on-movielens-100k)](https://paperswithcode.com/sota/collaborative-filtering-on-movielens-100k?p=scalable-probabilistic-matrix-factorization)
+
 # Run the Demo
 
 To run the demo simply run the gpmf_demo_movielens100k.m MATLAB file which will compare our method with several baseline methods.
