@@ -10,6 +10,7 @@
 % This code is is based on code from the following reference with modification to handle only checking specific elements on the matrix:
 % Author:    Richard Y. Zhang (ryz@alum.mit.edu)
 % Url:       http://alum.mit.edu/www/ryz
+% Software:  https://ryz.ece.illinois.edu/software.html
 % Date:      Feb 2018
 % Reference: R.Y. Zhang, S. Fattahi, S. Sojoudi, "Linear-Time Algorithm for 
 %            Learning Large-Scale Sparse Graphical Models".
